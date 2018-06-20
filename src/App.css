@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  text-align: left;
+}
+
+.App-title {
+  font-size: 1.5em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  vertical-align: middle;
+  text-align: left;
+  height: 40px;
+  /*border: 1px solid black;*/
+}
+
+.Search-box {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  width: 300px;
+  /*border: 1px solid black;*/
+}
+
+.Search-result {
+  position: relative;
+  border: 1px solid #D8D6D6;
+  border-radius: 5px;
+  margin-left: 330px;
+  right: 5px;
+  top: 50px;
+}
+
+.Date-picker {
+  display: flex;
+}
+
+.no-border {
+  border-width: 0px;
+  -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
